@@ -1,0 +1,180 @@
+html, body {
+height: 100%;
+}
+body {
+    font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 13px;
+    line-height: 1.3em;
+	margin: 0;
+    color: #242729;
+    background: #d1e8e7;
+    min-width: 1075px;
+}
+.bgcont {
+	background: #ffffff;
+    width: 1030px;
+    margin: 0 auto;
+	-webkit-box-shadow: 5px 0 38px rgba(0,51,129,0.27);
+    box-shadow: 5px 0 38px rgba(0,51,129,0.57);
+	padding: 15px;
+}
+.bgconti {
+    border: 1px #dfdfdf solid;
+}
+.navcont {
+    margin-right: auto;
+    margin-left: auto;
+	height: 30px;
+    width: 1060px;
+}
+.kak {
+    background: #e9f7fd;
+    padding-top: 10px;
+    border: 2px solid #dde9ef;
+    text-align: center;
+	margin: 0 auto;
+    width: 990px;
+	margin-top: 15px;
+	height: 250px;
+	}
+.col {
+    width: 33%;
+    float: left;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #515a61;
+	}
+.bl {
+    margin: 18px 0;
+}
+.btn
+{
+    font-family: 'Helvetica Neue',Arial,sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    padding: .3em .7em;
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.2),0 2px 0 rgba(255,255,255,0.15) inset;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.2), 0 2px 0 rgba(255,255,255,0.15) inset;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2), 0 2px 0 rgba(255,255,255,0.15) inset;
+    color: #fff !important;
+    border: 1px solid #c47b07;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fba00c), to(#f67c16));
+    background: -moz-linear-gradient(top, #fba00c, #f67c16);
+    background: -o-linear-gradient(top, #fba00c, #f67c16);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fba00c', endColorstr='#f67c16');
+    font-size: 1em;
+    line-height: 1.5;
+    border-radius: 6px;
+    text-shadow: 0 0 2px rgba(0,0,0,0.5);
+}
+.title {
+    color: #515a61;
+    font-size: 18px;
+    font-weight: 800;
+    width: 80%;
+    margin: 0 10% 20px 10%;
+	}
+.col em	{
+    font-weight: 800;
+    font-style: normal;
+}
+
+.logo {float: left; margin-left:-14px;margin-top:24px;}
+
+li {
+	padding: 15px;
+    float: left;
+	list-style: none;
+}
+.navm {
+    float: left;
+}
+.vhod {
+    float: right;
+}
+.hedinf {
+    margin-right: auto;
+    margin-left: auto;
+	height: 378px;
+    width: 1030px;
+	margin-top: 15px;
+}
+.row {
+    padding: 10px;
+}
+.infl {
+    float: left;
+    display: block;
+    margin-right: 1.69492%;
+    width: 66.10169%;
+    height: 378px;
+    margin-bottom: 0;
+	text-align: center;
+    /*  background-image: linear-gradient(to bottom right, #02b3e4, #02ccba, 0.3); */
+    padding: 0 6px 2px;
+	border: 2px solid rgba(0,51,129,0);
+	box-shadow: 12px 15px 20px 0 rgba(46,61,73,0.15);
+    border-radius: 0.375rem;
+}
+.infr {
+    float: left;
+    display: block;
+    margin-right: 0.39492%;
+    width: 30.20339%;
+    padding-left: 0;
+	}
+.infone {
+	border: 2px solid rgba(0,51,129,0);
+	height: 120px;
+	box-shadow: 12px 15px 20px 0 rgba(46,61,73,0.15);
+    border-radius: 0.375rem;
+		}
+		.infone:hover {
+	box-shadow: 2px 5px 10px 0 rgba(46,61,73,0.15);
+		}
+		.inftho {
+	border: 2px solid rgba(0,51,129,0);
+	height: 120px;
+	box-shadow: 12px 15px 20px 0 rgba(46,61,73,0.15);
+    border-radius: 0.375rem;
+	margin-top: 10px;
+		}
+		.inftho:hover  {
+			box-shadow: 2px 5px 10px 0 rgba(46,61,73,0.15);
+			}
+		.inf3 {
+	border: 2px solid rgba(0,51,129,0);
+	height: 120px;
+	box-shadow: 12px 15px 20px 0 rgba(46,61,73,0.15);
+    border-radius: 0.375rem;
+	margin-top: 10px;
+		}
+		.inf3:hover {
+					box-shadow: 2px 5px 10px 0 rgba(46,61,73,0.15);
+			}
+.colomn {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    float: left;
+    display: block;
+	width: 28%;
+    margin-top: 20px;
+}
+.preim {
+    border: 2px solid rgba(0,51,129,0);
+    margin-right: auto;
+    margin-left: auto;
+    height: 100px;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+	}
+.footer {
+    height: 200px;
+    #background: linear-gradient(160deg, #02CCBA 0%, #AA7ECD 100%);
+    margin-top: 20px;
+}
