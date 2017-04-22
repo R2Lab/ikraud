@@ -1,4 +1,4 @@
-<?php echo '<!DOCTYPE html>';?>
+<?php session_start(); echo '<!DOCTYPE html>';?>
 <html lang="ru">
 	<head>
 		<title>Крауд-маркетинг</title>
@@ -44,7 +44,7 @@
 <div class="hedinf"><div class="infl">1
 <?php require 'newsout.php';?>
 </div>
-<div class="infr"><div class="infone"><img src="/img/up.png" alt="Продвижение бренда" style="height: 120px; border-radius: 10px 0px 0px 10px;"></div><div class="inftho"><img src="/img/ro.png" alt="Продвижение бренда" style="height: 120px; border-radius: 10px 0px 0px 10px;">2</div><div class="inf3"><img src="/img/bld.png" alt="Продвижение бренда" style="height: 120px; border-radius: 10px 0px 0px 10px;">3</div></div></div>
+<div class="infr"><div class="infone"><img src="/img/up.png" alt="Продвижение бренда" style="height: 120px; border-radius: 10px 0 0 10px;"></div><div class="inftho"><img src="/img/ro.png" alt="Продвижение бренда" style="height: 120px; border-radius: 10px 0 0 10px;">2</div><div class="inf3"><img src="/img/bld.png" alt="Продвижение бренда" style="height: 120px; border-radius: 10px 0 0 10px;">3</div></div></div>
 <div class="preim"><div class="row"><a class="title">Преимущества</a></div>
 <div class="colomn">
 <img alt="Преимущества" src="/img/1.svg">
